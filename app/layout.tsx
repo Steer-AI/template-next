@@ -26,7 +26,7 @@ export default function RootLayout({
         >
           <main>{children}</main>
           <Toaster />
-          <Script src="https://steercode.web.app/steercode.min.js" type="module" />
+          <Script src="https://steercode.web.app/steercode.min.js" type="module" strategy="beforeInteractive" />
         </ThemeProvider>
       </body>
     </html>
